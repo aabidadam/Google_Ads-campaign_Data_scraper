@@ -249,7 +249,7 @@ def extract_google_ads_data(driver, table_xpath, max_scroll_attempts=15, wait_ti
 
 try:
    
-    login_and_navigate_google_ads(driver, "abid.ansari@adyogi.com", "Abid@mrinalini")
+    login_and_navigate_google_ads(driver, "", "")
     time.sleep(5)
     Start_date = "1/6/2025"
     End_date = "1/26/2025"
